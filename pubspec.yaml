@@ -1,0 +1,57 @@
+name: compost_game
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.6.0
+  flame_audio: ^1.3.5
+  freezed_annotation: ^2.2.0
+  flutter_riverpod: ^2.0.2
+  shared_preferences: ^2.0.13
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  freezed: ^2.3.2
+  build_runner: ^2.1.7
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/fridge.png
+    - assets/images/fridge_big_trimmed.png
+    - assets/images/compost.png
+    - assets/images/compost_big.png
+    - assets/images/compost_big_trimmed.png
+    - assets/images/dumpster.png
+    - assets/images/dog.png
+    - assets/images/dog_big.png
+    - assets/images/green_apple.png
+    - assets/images/red_apple.png
+    - assets/images/apple_core.png
+    - assets/images/fish.png
+    - assets/images/whole_grilled_chicken.png
+    - assets/images/cheese.png
+    - assets/images/bone.png
+    - assets/images/chicken_thigh_half.png
+    - assets/images/chicken_thigh.png
+    - assets/images/lemon.png
+    - assets/images/walls.png
+    - assets/images/window.png
+    - assets/images/window_dry_tree.png
+    - assets/images/window_moon.png
+    - assets/images/banana_peel.png
+    - assets/images/watermelon_peel_big_64_33.png
+    - assets/audio/megaman.mp3
+    - assets/config.json
+  fonts:
+    - family: bitmapfont
+      fonts:
+        - asset: assets/fonts/bitmapfont.ttf

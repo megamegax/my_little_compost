@@ -1,0 +1,104 @@
+{
+  "foods": [
+    {
+      "image_path": "green_apple.png",
+      "target": "fridge",
+      "frame_count": 1,
+      "image_width": 74,
+      "image_height": 74
+    },
+    {
+      "image_path": "red_apple.png",
+      "target": "fridge",
+      "frame_count": 1,
+      "image_width": 74,
+      "image_height": 74
+    },
+    {
+      "image_path": "cheese.png",
+      "target": "fridge",
+      "frame_count": 1,
+      "image_width": 74,
+      "image_height": 74
+    },
+    {
+      "image_path": "fish.png",
+      "target": "fridge",
+      "frame_count": 1,
+      "image_width": 74,
+      "image_height": 74
+    },
+    {
+      "image_path": "lemon.png",
+      "target": "fridge",
+      "frame_count": 1,
+      "image_width": 74,
+      "image_height": 74
+    },
+    {
+      "image_path": "whole_grilled_chicken.png",
+      "target": "fridge",
+      "frame_count": 1,
+      "image_width": 74,
+      "image_height": 74
+    },
+    {
+      "image_path": "apple_core.png",
+      "target": "compost",
+      "frame_count": 1,
+      "image_width": 64,
+      "image_height": 64
+    },
+    {
+      "image_path": "watermelon_peel_big_64_33.png",
+      "target": "compost",
+      "frame_count": 1,
+      "image_width": 64,
+      "image_height": 640
+    },
+    {
+      "image_path": "banana_peel.png",
+      "target": "compost",
+      "frame_count": 1,
+      "image_width": 64,
+      "image_height": 64
+    },
+    {
+      "image_path": "bone.png",
+      "target": "dog",
+      "frame_count": 1,
+      "image_width": 64,
+      "image_height": 64
+    },
+    {
+      "image_path": "chicken_thigh_half.png",
+      "target": "dog",
+      "frame_count": 1,
+      "image_width": 64,
+      "image_height": 64
+    }
+  ],
+  "targets": [
+    {
+      "name": "dog",
+      "image_path": "dog_big.png",
+      "frame_count": 8,
+      "image_width": 155,
+      "image_height": 182
+    },
+    {
+      "name": "fridge",
+      "image_path": "fridge_big_trimmed.png",
+      "frame_count": 11,
+      "image_width": 150,
+      "image_height": 187
+    },
+    {
+      "name": "compost",
+      "image_path": "compost_big_trimmed.png",
+      "frame_count": 8,
+      "image_width": 100,
+      "image_height": 123
+    }
+  ]
+}
