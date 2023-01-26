@@ -34,8 +34,8 @@ class CompostGame extends FlameGame with HasDraggables {
       ..anchor = Anchor.topCenter
       ..x = size[0] / 2 // size is a property from game
       ..y = 32.0;
-    double maxSide = min(size.x, size.y);
-    camera.viewport = FixedResolutionViewport(Vector2.all(maxSide));
+    //double maxSide = min(size.x, size.y);
+    // camera.viewport = FixedResolutionViewport(Vector2.all(maxSide));
 
     FlameAudio.bgm.initialize();
     _loadCharacters();
@@ -79,7 +79,7 @@ class CompostGame extends FlameGame with HasDraggables {
       ..size = Vector2(screenWidth, screenHeight));
     add(window
       ..sprite = await loadSprite('window.png')
-      ..x = 250
+      ..x = size[0] / 2 - 80
       ..y = 150
       ..size = Vector2(200, 200));
   }
@@ -92,7 +92,7 @@ class CompostGame extends FlameGame with HasDraggables {
         SpriteAnimationData.sequenced(
             amount: 9, stepTime: 0.05, textureSize: dogSize))
       ..x = screenWidth * 0.1
-      ..y = screenHeight - 250
+      ..y = screenHeight - 210
       ..size = dogSize;
 
     fridge = SpriteAnimationComponent.fromFrameData(
